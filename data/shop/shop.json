@@ -1,0 +1,56 @@
+[
+  {
+    "id"           : 1,
+    "name"         : "Big Box",
+    "cost_gems"    : 30,
+    "cost_gold"    : 0,
+    "product_type" : 1,
+    "product_id"   : 0,
+    "product_count": 1,
+    "is_featured"  : true,
+    "_comment"     : "product_type 1 = Box"
+  },
+  {
+    "id"           : 2,
+    "name"         : "Mega Box",
+    "cost_gems"    : 80,
+    "cost_gold"    : 0,
+    "product_type" : 1,
+    "product_id"   : 1,
+    "product_count": 1,
+    "is_featured"  : true
+  },
+  {
+    "id"           : 3,
+    "name"         : "170 Gems",
+    "cost_gems"    : 0,
+    "cost_gold"    : 0,
+    "product_type" : 2,
+    "product_id"   : 0,
+    "product_count": 170,
+    "is_featured"  : false,
+    "_comment"     : "product_type 2 = Gems (free on local server)"
+  },
+  {
+    "id"           : 4,
+    "name"         : "Shelly Skin: Sheriff",
+    "cost_gems"    : 30,
+    "cost_gold"    : 0,
+    "product_type" : 3,
+    "product_id"   : 16000000,
+    "product_count": 1,
+    "is_featured"  : false,
+    "_comment"     : "product_type 3 = Skin"
+  },
+  {
+    "id"           : 5,
+    "name"         : "150 Gold",
+    "cost_gems"    : 0,
+    "cost_gold"    : 0,
+    "product_type" : 4,
+    "product_id"   : 0,
+    "product_count": 150,
+    "is_featured"  : false,
+    "_comment"     : "product_type 4 = Gold"
+  }
+]

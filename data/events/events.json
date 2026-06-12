@@ -1,0 +1,57 @@
+[
+  {
+    "id"        : 1,
+    "mode_id"   : 3,
+    "map_id"    : 15000001,
+    "map_name"  : "Shooting Star",
+    "slot"      : 0,
+    "start_time": 0,
+    "end_time"  : 9999999999,
+    "modifiers" : [],
+    "_comment"  : "mode_id 3 = Gem Grab"
+  },
+  {
+    "id"        : 2,
+    "mode_id"   : 6,
+    "map_id"    : 15000010,
+    "map_name"  : "Skull Creek",
+    "slot"      : 1,
+    "start_time": 0,
+    "end_time"  : 9999999999,
+    "modifiers" : [],
+    "_comment"  : "mode_id 6 = Showdown (Solo)"
+  },
+  {
+    "id"        : 3,
+    "mode_id"   : 5,
+    "map_id"    : 15000020,
+    "map_name"  : "Pinball Dreams",
+    "slot"      : 2,
+    "start_time": 0,
+    "end_time"  : 9999999999,
+    "modifiers" : [],
+    "_comment"  : "mode_id 5 = Brawl Ball"
+  },
+  {
+    "id"        : 4,
+    "mode_id"   : 7,
+    "map_id"    : 15000030,
+    "map_name"  : "Double Swoosh",
+    "slot"      : 3,
+    "start_time": 0,
+    "end_time"  : 9999999999,
+    "modifiers" : [],
+    "_comment"  : "mode_id 7 = Heist"
+  },
+  {
+    "id"        : 5,
+    "mode_id"   : 4,
+    "map_id"    : 15000040,
+    "map_name"  : "Bandit Totem",
+    "slot"      : 4,
+    "start_time": 0,
+    "end_time"  : 9999999999,
+    "modifiers" : [],
+    "_comment"  : "mode_id 4 = Bounty"
+  }
+]

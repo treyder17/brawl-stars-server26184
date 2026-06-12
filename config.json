@@ -1,0 +1,38 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 9339,
+    "_note": "Port is overridden by $PORT env var on Railway"
+  },
+  "mongodb": {
+    "uri"     : "mongodb://localhost:27017",
+    "database": "brawlserver",
+    "_note"   : "URI is overridden by $MONGO_URL env var on Railway/Atlas"
+  },
+  "log_level": "INFO",
+  "_log_level_options": ["DEBUG", "INFO", "WARNING"],
+  "starting_resources": {
+    "gems"   : 9999,
+    "gold"   : 99999,
+    "tickets": 50,
+    "_note"  : "Override with $BS_STARTING_GEMS / $BS_STARTING_GOLD / $BS_STARTING_TICKETS"
+  },
+  "features": {
+    "allow_all_brawlers"  : true,
+    "allow_all_skins"     : true,
+    "unlimited_resources" : true,
+    "_note": "Override with $BS_ALL_BRAWLERS / $BS_ALL_SKINS / $BS_UNLIMITED_RES (true/false)"
+  },
+  "_env_vars": {
+    "MONGO_URL"           : "Full MongoDB connection string (overrides mongodb.uri)",
+    "MONGO_DB"            : "Database name (overrides mongodb.database)",
+    "PORT"                : "TCP port — set automatically by Railway",
+    "LOG_LEVEL"           : "DEBUG / INFO / WARNING",
+    "BS_STARTING_GEMS"    : "Gems for new players (integer)",
+    "BS_STARTING_GOLD"    : "Gold for new players (integer)",
+    "BS_STARTING_TICKETS" : "Tickets for new players (integer)",
+    "BS_ALL_BRAWLERS"     : "true/false — unlock all brawlers",
+    "BS_ALL_SKINS"        : "true/false — unlock all skins",
+    "BS_UNLIMITED_RES"    : "true/false — unlimited resources mode"
+  }
+}

@@ -1,0 +1,9 @@
+*.apk
+*.idsig
+apktool.jar
+entpacken.bat
+patch_game.bat
+temp_injector.ps1
+libcb.config.so
+libcb.config.so.bak
+ordnerstruktur.txt
